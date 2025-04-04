@@ -1,0 +1,27 @@
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ .btn{
+    border: none;
+    background-color: white;
+    font-size: 14px;
+ }
+.btn-div{
+    margin-left: 500px;
+}
+.logo-div{
+    margin-left: 500px;
+}
+.header-logo{
+    margin-left: 10px;
+}
+.box-div{
+    background-color: rgb(182, 224, 241);
+    border-radius: 10px;
+}
+.box-header{
+    font-size: 50px;
+    font-weight:700;
+}
