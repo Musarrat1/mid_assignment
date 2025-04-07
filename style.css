@@ -22,9 +22,10 @@
     margin-left: 10px;
 }
 .box-div{
+   
     background-color: rgb(231, 250, 254,100%);
     border-radius: 10px;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -65,13 +66,13 @@
     color: gray;
 }
 .div-box-sec{
-    display: flex;
-    margin-top: 8px;
+   display: grid;
+   grid-template-columns: repeat(3,3fr);
+   margin-top: 20px;
     
 }
 .div-box-sec1{
-    margin-left: 8px;
-    margin-top: 7px;
+  
    
 }
 .badge-p{
@@ -79,7 +80,7 @@
     position: absolute;
     margin-top: 30px;
     margin-right: 60px;
-    margin-left: 1000px;
+    margin-left: 1010px;
 }
 .view-recipes{
    background-color: black;
@@ -87,14 +88,81 @@
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 12px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: none;
     display: flex;
     margin-left: 180px;
+    font-size: 10px;
+
   
 }
 .recipe-v-s{
-    width: 10px;
+    width: 5px;
     margin-left: 10px;
+}
+.btn-categories{
+    border: none;
+    background-color: rgb(231, 250, 254,100%);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.categories{
+    font-size: 36px;
+}
+.div-card{
+    display: grid;
+    grid-template-columns: repeat(6,3fr);
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+.card-h{
+    margin-top: 60px;
+    
+}
+.card-1{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+}
+.card-b{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(white,rgb(112, 130, 70,10%));
+}
+.card-v{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(white,rgb(108, 198, 63,10%)); 
+}
+.card-m{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(white,rgb(204, 38, 27,10%));
+    }
+.card-d{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(white,rgb(240, 158, 0,10%));
+}
+.card-l{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(white,rgb(0, 0, 0,5%));
 }
