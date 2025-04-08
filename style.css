@@ -24,7 +24,7 @@
 .box-div{
    
     background-color: rgb(231, 250, 254,100%);
-    border-radius: 10px;
+    border-radius: 20px;
     padding-left: 30px;
     padding-right: 20px;
     padding-top: 20px;
@@ -165,4 +165,130 @@
     padding-right: 20px;
     padding-bottom: 20px;
     background-image: linear-gradient(white,rgb(0, 0, 0,5%));
+}
+.every{
+    margin-top: 100px;
+    font-size: 38px;
+    font-weight: bold;
+  
+}
+.every-p{
+    font-size: 16px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0,60%);
+}
+.section-every{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-left: 80px;
+  
+   
+}
+.btn-learn{
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.check-h{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+.check-p{
+    font-size: 16px;
+    color: rgb(0, 0, 0,60%);
+    text-align: center;
+    margin-top: 10px;
+}
+.div-img{
+    display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 40px;
+}
+.insta-view{
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+     color: white;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     margin-left: 650px;
+     margin-top: 30px;
+}
+.section-check{
+    margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+    background-image: linear-gradient(white,rgb(231,249,253,100%));
+
+}
+.input-t{
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-top: 10px
+    
+    ;
+ margin-right: 10px;
+
+}
+.sub-t{
+    text-align: center;
+    
+}
+.Subscribe{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    
+
+   
+}
+.div-footer{
+    display: flex; 
+    justify-content: space-between;
+}
+.btn-foot{
+    border: none;
+    background-color: white;
+}
+.footer-p{
+    font-size: 16px; 
+    color: rgb(0, 0, 0,60%);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.foot-1{
+    font-size: 20px;
+}
+.small{
+    justify-content: center;
+    margin-left: 600px;
+
 }
