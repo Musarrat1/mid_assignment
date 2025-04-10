@@ -1,0 +1,7 @@
+@media screen and (max-width: 600px) {
+    .sec3-div{
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+    }
+    
+}
